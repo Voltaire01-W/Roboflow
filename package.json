@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "react-router-dom": "^5.2.0"
+  }
+}

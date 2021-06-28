@@ -1,6 +1,13 @@
 .Navbar {
     text-align: center;
   }
+  .nav-container {
+    margin: auto;
+  }
+  
+  .nav-container svg{
+    color: #fff;
+  }
   
   .Navbar-logo {
     height: 40vmin;
