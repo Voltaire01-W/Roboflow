@@ -10,9 +10,14 @@ import './App.css';
 
 // Pages
 import Home from './pages/Home';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 
 // Components
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import All from './pages/All/All';
+import Announcements from './pages/Announcements/Announcements';
+import Ask from './pages/Ask/Ask';
 
 function App() {
   return (
@@ -22,6 +27,11 @@ function App() {
           <div className="container">
             <Switch>
               <Route exact path='/' component={Home} />
+              <Route exact path='/login' component={Login} />
+              <Route exact path='/signup' component={Signup} />
+              <Route exact path='/all' component={All} />
+              <Route exact path='/announcements' component={Announcements} />
+              <Route exact path='/ask' component={Ask} />
             </Switch>
           </div>
       </Router>

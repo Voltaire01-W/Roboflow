@@ -1,0 +1,46 @@
+.TabBar {
+    text-align: center;
+  }
+  .tab-container {
+    margin: auto;
+  }
+  
+  .tab-container svg{
+    color: #fff;
+  }
+  
+  .TabBar-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .TabBar-logo {
+      animation: TabBar-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .TabBar-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .TabBar-link {
+    color: #61dafb;
+  }
+  
+  @keyframes TabBar-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

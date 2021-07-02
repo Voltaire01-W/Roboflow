@@ -59,11 +59,13 @@ Footer will be more or less the same as the main Roboflow website.
 
 */
 import './Home.css';
+import TabBar from '../components/TabBar/TabBar';
 
 function Home() {
   return (
     <div className="Home">
       <header className="Home-header">
+        <TabBar />
       </header>
     </div>
   );
